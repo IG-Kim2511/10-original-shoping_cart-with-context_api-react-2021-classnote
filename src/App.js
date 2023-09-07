@@ -4,10 +4,10 @@
 
   <🍀>
 
-  🍉🦄js30 defalutProps , color
+    🦄js30 defalutProps , color
     🦄js31 uuid: unique ID 부여해줌
 
-      🦄js32 삼항연산자에서 else if문법
+    🦄js32 삼항연산자에서 else if문법
       className={
               value + 1 === rate + 0.5
                 ? "fas fa-star-half-alt"
@@ -15,6 +15,11 @@
                 ? "fas fa-star"
                 : "far fa-star"
             }
+            
+    🦄 conditional rendering
+
+
+
 */
 
 import Cart from "./Components/Cart";

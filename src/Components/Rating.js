@@ -21,6 +21,7 @@ const Rating = ({ value, text, color }) => {
           ></i>
         </span>
       ))}
+      {/* 🦄conditional rendering */}
       <span>{text && text}</span>
     </div>
   );
