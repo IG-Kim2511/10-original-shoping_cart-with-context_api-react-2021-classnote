@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 
+// 👉js30 color
 const Rating = ({ value, text, color }) => {
   return (
     <div className='rating'>
@@ -22,6 +23,8 @@ const Rating = ({ value, text, color }) => {
   );
 };
 
+// 🦄js30  defalutProps , color
+// 여기에서 defalutProps , color지정함
 Rating.defaultProps = {
   color: "#FFA41C",
 };
