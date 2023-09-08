@@ -21,28 +21,20 @@ const CartState = ({ children }) => {
     cartItems: [],
 
   };
-
-
   
   const [state, dispatch] = useReducer(CartReducer, initalState);
 
-
-  
   const addToCart = (item) => {
   
     dispatch({ type: ADD_TO_CART, payload: item });
   
   };
-
-
   
   const showHideCart = () => {
   
     dispatch({ type: SHOW_HIDE_CART });
   
   };
-
-
   
   const removeItem = (id) => {
   
