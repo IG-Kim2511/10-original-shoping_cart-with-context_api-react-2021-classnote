@@ -2,14 +2,16 @@
   <🚀🚀point skill + AI질문목록 - all >
   <🍄🍄질문 목록 정리>
 
-  <🍀>
+  <🦄 사용 스킬 정리>
     🍄contextAPI
       CartState.js
       CartReducer.js
+      (Type.js, CartContext.js 는 괜히 분리해놓은 파일...복잡하게 분리할 필요없음)
 
     🍄package
-      🦄js30 defalutProps , color
-      🦄js31 uuid: unique ID 부여해줌
+      defalutProps , color
+      uuid: unique ID 부여해줌
+      format-currency : currency package
 
     🍄Rating.js
       🍀js32 삼항연산자에서 else if문법
