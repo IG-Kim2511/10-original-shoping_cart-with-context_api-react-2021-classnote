@@ -3,20 +3,29 @@
   <🍄🍄질문 목록 정리>
 
   <🍀>
+    🍄contextAPI
+      CartState.js
+      CartReducer.js
 
-    🦄js30 defalutProps , color
-    🦄js31 uuid: unique ID 부여해줌
+    🍄package
+      🦄js30 defalutProps , color
+      🦄js31 uuid: unique ID 부여해줌
 
-    🦄js32 삼항연산자에서 else if문법
-      className={
-              value + 1 === rate + 0.5
-                ? "fas fa-star-half-alt"
-                : value >= rate
-                ? "fas fa-star"
-                : "far fa-star"
-            }
-            
-    🦄 conditional rendering
+    🍄Rating.js
+      🍀js32 삼항연산자에서 else if문법
+        className={
+                value + 1 === rate + 0.5
+                  ? "fas fa-star-half-alt"
+                  : value >= rate
+                  ? "fas fa-star"
+                  : "far fa-star"
+              }
+              
+      🍀 conditional rendering
+
+    🍄Nav.js
+      🍀Array.length 
+      🍀aria-hidden
 
 
 
