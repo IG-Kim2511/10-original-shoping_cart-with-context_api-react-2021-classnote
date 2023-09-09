@@ -28,9 +28,6 @@
     🍄Nav.js
       🍀Array.length 
       🍀aria-hidden
-
-
-
 */
 
 import Cart from "./Components/Cart";

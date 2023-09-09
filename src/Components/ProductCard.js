@@ -5,8 +5,12 @@ import Rating from "./Rating";
 import CartContext from "../context/cart/CartContext";
 
 const ProductCard = ({ product }) => {
+
+  // context
   const { addToCart } = useContext(CartContext);
+
   let opts = { format: "%s%v", symbol: "€" };
+
   return (
     <div className='productCard__wrapper'>
       <div>

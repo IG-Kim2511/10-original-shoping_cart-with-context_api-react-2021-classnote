@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+
+//👉 context
 import CartState from "./context/cart/CartState";
 
 ReactDOM.render(
