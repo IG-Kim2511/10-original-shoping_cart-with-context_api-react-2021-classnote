@@ -1,9 +1,13 @@
 import { useContext } from "react";
 import "./ProductCard.css";
-import formatCurrency from "format-currency";
-import Rating from "./Rating";
+// context
 import CartContext from "../context/cart/CartContext";
 
+import formatCurrency from "format-currency";
+import Rating from "./Rating";
+
+
+// 👉Homescreen.js
 const ProductCard = ({ product }) => {
 
   // context
@@ -27,6 +31,7 @@ const ProductCard = ({ product }) => {
         </div>
         <button
           className='ProductCard__button'
+          // 👉 dispatch
           onClick={() => addToCart(product)}
         >
           Add to basket

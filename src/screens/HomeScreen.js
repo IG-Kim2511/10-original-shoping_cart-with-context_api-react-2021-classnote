@@ -1,3 +1,5 @@
+
+// data
 import products from "../data";
 import "./HomeScreen.css";
 import ProductCard from "../Components/ProductCard";

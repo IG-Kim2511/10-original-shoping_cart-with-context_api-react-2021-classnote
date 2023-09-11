@@ -1,6 +1,9 @@
 import { useContext } from "react";
 import "./CartItem.css";
+
+// context
 import CartContext from "../context/cart/CartContext";
+
 import formatCurrency from "format-currency";
 
 const CartItem = ({ item }) => {
